@@ -13,7 +13,7 @@ widely accecpted that disposal of waste fluids that are a byproduct of oil produ
 The GIF above shows the wells approved for drilling as well as the occurrences
 of earthquakes over time and space in the state of Oklahoma. Note that prior to 2010s,
 earthquakes are extremely rare. However, the proliferation of oil wells was
-followed by the north and central Oklahoma.
+followed by occurrences of earthquakes at northern and central Oklahoma.
 
 ![](https://github.com/justinhjy1004/InducedEarthquakes/blob/main/wells_eq.png)
 
