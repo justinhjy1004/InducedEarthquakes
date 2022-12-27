@@ -17,8 +17,31 @@ followed by occurrences of earthquakes at northern and central Oklahoma.
 
 ![](https://github.com/justinhjy1004/InducedEarthquakes/blob/main/wells_eq.png)
 
-The graph above shows the number of earthquakes and approval of oil wells. Note the
-lag between the two variables.
+The graph above shows the number of earthquakes (in black) and approval of oil wells (in blue). Note the lag between the two variables, which is required when considering 
+the relationship between earthquakes and oil wells.
+
+===========================================================
+                 # Earthquakes  Max Magnitude  Max Depth   
+                  ----------     ----------    ----------  
+                    num_eq        max_mag      max_depth   
+-----------------------------------------------------------
+  (Intercept)     -51.527***       3.032***      5.740***  
+                  (10.840)        (0.092)       (0.973)    
+  lag_num_wells     5.121***       0.028***      0.187***  
+                   (0.496)        (0.004)       (0.044)    
+-----------------------------------------------------------
+  R-squared         0.361          0.193         0.086     
+  F               106.621         45.211        17.713     
+  p                 0.000          0.000         0.000     
+  N               191            191           191         
+===========================================================
+  Significance: *** = p < 0.001; ** = p < 0.01;   
+                * = p < 0.05  
+===========================================================
+
+The regression table above shows the relationship between the number of approved wells
+30 months ago and the number of occurrences of earthquakes, the maximum magnitude and
+the maximum depth.
 
 ## Replication
 analysis.R is the main file for the replication of the visualizations and analysis.
