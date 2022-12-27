@@ -19,7 +19,7 @@ followed by occurrences of earthquakes at northern and central Oklahoma.
 
 The graph above shows the number of earthquakes (in black) and approval of oil wells (in blue). Note the lag between the two variables, which is required when considering 
 the relationship between earthquakes and oil wells.
-
+```
 ===========================================================
                  # Earthquakes  Max Magnitude  Max Depth   
                   ----------     ----------    ----------  
@@ -33,11 +33,12 @@ the relationship between earthquakes and oil wells.
   R-squared         0.361          0.193         0.086     
   F               106.621         45.211        17.713     
   p                 0.000          0.000         0.000     
-  N               191            191           191         
+  N                 191            191           191         
 ===========================================================
   Significance: *** = p < 0.001; ** = p < 0.01;   
                 * = p < 0.05  
 ===========================================================
+```
 
 The regression table above shows the relationship between the number of approved wells
 30 months ago and the number of occurrences of earthquakes, the maximum magnitude and
